@@ -16,3 +16,9 @@ Attendance System
 - Demonstrated the use of the `this` keyword to distinguish instance variables from constructor parameters.
 - Changed `Course`'s `courseId` to `int` for simpler auto-generation and updated its display.
 - Updated `Main.java` to use constructors and show ID progression.
+
+## Part 4: Data Encapsulation & Attendance Recording Validation
+- Applied encapsulation to `Student` and `Course` classes by making fields `private` and adding public `getters`.
+- Introduced a new `AttendanceRecord` class with `private` fields, a constructor, and `getters` to store attendance data.
+- Implemented basic validation in the `AttendanceRecord` constructor for the attendance status (allowing only "Present" or "Absent").
+- Used an `ArrayList` in `Main.java` to store and display `AttendanceRecord` objects.
